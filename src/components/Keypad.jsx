@@ -16,8 +16,8 @@ const clear = () => {
   setprev(str)
 try{
   setstr(eval(str).toString())
-}catch{
-  setstr(error)
+}catch(err){
+  setstr("error")
 }
   }
 
